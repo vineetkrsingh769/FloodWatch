@@ -14,18 +14,6 @@ const ResultCard = ({ riskLevel }) => {
         "Keep emergency contact numbers handy"
       ]
     },
-    moderate: {
-      color: "hsl(var(--moderate))",
-      icon: AlertTriangle,
-      title: "Moderate Risk",
-      description: "Moderate flood risk detected. Some indicators suggest potential water accumulation.",
-      tips: [
-        "Monitor weather forecasts regularly",
-        "Prepare emergency evacuation plan",
-        "Store important documents in waterproof containers",
-        "Keep emergency supplies ready"
-      ]
-    },
     high: {
       color: "hsl(var(--high))",
       icon: XCircle,
